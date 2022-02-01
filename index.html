@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        color:#fff;
+        background: #573334;
+    }
+    #game{
+        width:400px;
+        background: #222222;
+        ;padding:18px;
+        text-align: center;
+        margin: auto;
+    }
+    h1{
+        margin:0 0 18px 0;
+        border:solid 1px #fff;
+        padding:5px;
+        font-weight: 400;
+
+    }
+    span {
+        font-size: 125%;
+        padding:12px;
+    }
+    #input{
+        width:90px;
+
+    }
+    #answer{
+       margin-top:10px;
+padding:5px;
+border:none;
+width:100px;
+background:#565613;
+color:#fff;
+
+
+
+    }
+    #answer:hover{
+        background: #0c5f17;;
+
+    }
+    #True,#False {
+        font-size: 150%;
+        margin-top: 10px;
+        padding:10px;
+        display:inline-block;
+    }
+    #True{
+        background: #1c9605;;
+    }
+    #False{
+        background: red;
+    }
+</style>
+<body>
+    <div id="game">
+        <h1>Dört İşlem Oyunu</h1>
+        <span id="number1">0</span>
+        <span id="Operator">*</span>
+        <span id="Number2">0</span>
+        <span>=</span>
+        <input type="text" name="" id="result">
+        <input type="button" value="Cevapla" id="answer">
+        <div style="clear:both"></div>
+        <div id="True">0</div>
+        <div id="False">0</div>
+        <div style="clear: both;"></div>
+    </div>
+    <script>
+        var Number1,Number2,Operator,result,answer,True=0,False=0;
+        Number1=document.getElementById("Number1");
+        Number2=document.getElementById("Number2");
+
+    </script>
+</body>
+
+</html>
